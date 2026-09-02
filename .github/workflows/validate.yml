@@ -6,7 +6,7 @@ jobs:
 
         steps:
            - name: get-repo-code
-             uses: action/chekout@v4
+             uses: actions/checkout@v4
 
 
            - name: validate html file
