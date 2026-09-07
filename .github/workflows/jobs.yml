@@ -25,7 +25,7 @@ jobs:
              run: test -f script.js
 
     validate-code:
-        # needs: [validate-html, validate-js ]
+        needs: [validate-html, validate-js ]
         runs-on: Ubuntu-latest
 
         steps:
